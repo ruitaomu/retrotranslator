@@ -29,9 +29,7 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.sf.retrotranslator.runtime.java.lang;
-
-import net.sf.retrotranslator.registry.Advanced;
+package net.sf.retrotranslator.runtime13.v15.java.lang;
 
 /**
  * @author Taras Puchko
@@ -87,7 +85,6 @@ public class _StringBuffer {
         }
     }
 
-    @Advanced("StringBuffer.trimToSize")
     public static void trimToSize(StringBuffer buffer) {
         //do nothing
     }
